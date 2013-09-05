@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.0.0
+- 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: fJxw4rT4gxpz6sPVEpll9oN+8gUjlRXpi9JvQAUSThqyBWlhbd6Hw5eNY3Jm9AEgiCLQdezY7TORhjYYSonO3EHRQTbuYCGkym6LYRQaMsOrRS4OgB+Sjxqu1i3q5bv+glt1Nmv8SYSnZEFe5HyC7Wx/3EgzSol/FLHu2A+Kc2M=
+  app: fast-mesa-5758
+  on:
+    repo: htakahashiaiit/rakuten-ws-rails-sample
